@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的预约</title>
+  <style>
+    body {
+      font-family: "微软雅黑", sans-serif;
+      background-color: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .box1 {
+      width: 90%;
+      padding: 20px;
+      background-color: #007BFF;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: white;
+    }
+    .box2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      border-radius: 25px;
+      padding: 20px;
+      width: 90%;
+    }
+    .circle {
+      width: 50px;
+      height: 50px;
+      background-color: #007BFF;
+      border-radius: 50%;
+    }
+    .line {
+      width: 2px;
+      height: 100%;
+      background-color: gray;
+      margin-left: 30px;
+    }
+    .time {
+      font-size: 14px;
+      color: #666;
+    }
+    .content {
+      font-size: 18px;
+      color: black;
+    }
+    .success {
+      width: 20px;
+      height: 20px;
+      background-color: green;
+      border-radius: 50%;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box1">您有一个预约即将开始</div>
+  <div class="box2">
+    <div class="circle"></div>
+    <div class="line"></div>
+    <div class="time">2024-05-10 4:15-5:45</div>
+    <div class="content">健身房</div>
+    <div class="success"></div>
+    <a href="#" class="btn">查看详情</a>
+  </div>
+</div>
+</body>
+</html>
